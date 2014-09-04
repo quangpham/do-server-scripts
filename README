@@ -1,0 +1,15 @@
+\curl -sSL https://raw.github.com/quangpham/do-server-scripts/master/install_postgresql.sh | bash
+
+
+# TCP
+\curl -sSL https://raw.github.com/quangpham/do-server-scripts/master/init_server.sh | bash
+
+# Crawler
+\curl -sSL https://raw.github.com/quangpham/do-server-scripts/master/droplets/crawler/cb_crawler.sh | bash
+\curl -sSL https://raw.github.com/quangpham/do-server-scripts/master/droplets/crawler/db_import.sh | bash
+\curl -sSL https://raw.github.com/quangpham/do-server-scripts/master/droplets/crawler/db_export.sh | bash
+
+\curl -sSL https://raw.github.com/quangpham/do-server-scripts/master/dropbox/install_dropbox_uploader.sh | bash
+
+# HAUSER
+\curl -sSL https://raw.github.com/quangpham/do-server-scripts/master/droplets/hauser/server_install.sh | bash
